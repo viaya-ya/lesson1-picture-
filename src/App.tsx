@@ -1,40 +1,156 @@
-import './App.css';
 import styled from 'styled-components';
-
+import {Card} from "./components/Card.tsx";
+import beach from "./img/pingvin.jpg";
 
 function App() {
     return (
-        <div className="App">
-            <Title>Styled-components <span>.attrs</span> method</Title>
+            <Wrapper>
 
-            <Form>
-                <Field/>
-                <Field/>
-                <Field/>
-            </Form>
-        </div>
+                <Card src={beach}
+                      alt="Beach"
+                      title={"Пингвины Мадагаскар Мадагаскар Мадагаскар Мадагаскар"}
+                      description={"Ковальсикй ты ли это, Рико иди принеси стерлядь"}
+                      buttonNameForSolid={"See more"}
+                      buttonNameForOutlined={"Save"}
+                />
+
+                <Card src={beach}
+                      alt="Beach"
+                      title={"Пингвины Мадагаскар"}
+                      description={"Ковальсикй ты ли это, Рико иди принеси стерлядь  ты ли это ты ли это ты ли это ты ли этоты ли это"}
+                      buttonNameForSolid={"See more"}
+                      buttonNameForOutlined={"Save"}
+                />
+                <Card src={beach}
+                      alt="Beach"
+                      title={"Пингвины Мадагаскар Мадагаскар Мадагаскар Мадагаскар"}
+                      description={"Ковальсикй ты ли это, Рико иди принеси стерлядь"}
+                      buttonNameForSolid={"See more"}
+                      buttonNameForOutlined={"Save"}
+                />
+
+                <Card src={beach}
+                      alt="Beach"
+                      title={"Пингвины Мадагаскар"}
+                      description={"Ковальсикй ты ли это, Рико иди принеси стерлядь  ты ли это ты ли это ты ли это ты ли этоты ли это"}
+                      buttonNameForSolid={"See more"}
+                      buttonNameForOutlined={"Save"}
+                /> <Card src={beach}
+                         alt="Beach"
+                         title={"Пингвины Мадагаскар Мадагаскар Мадагаскар Мадагаскар"}
+                         description={"Ковальсикй ты ли это, Рико иди принеси стерлядь"}
+                         buttonNameForSolid={"See more"}
+                         buttonNameForOutlined={"Save"}
+            />
+
+                <Card src={beach}
+                      alt="Beach"
+                      title={"Пингвины Мадагаскар"}
+                      description={"Ковальсикй ты ли это, Рико иди принеси стерлядь  ты ли это ты ли это ты ли это ты ли этоты ли это"}
+                      buttonNameForSolid={"See more"}
+                      buttonNameForOutlined={"Save"}
+                /> <Card src={beach}
+                         alt="Beach"
+                         title={"Пингвины Мадагаскар Мадагаскар Мадагаскар Мадагаскар"}
+                         description={"Ковальсикй ты ли это, Рико иди принеси стерлядь"}
+                         buttonNameForSolid={"See more"}
+                         buttonNameForOutlined={"Save"}
+            />
+
+                <Card src={beach}
+                      alt="Beach"
+                      title={"Пингвины Мадагаскар"}
+                      description={"Ковальсикй ты ли это, Рико иди принеси стерлядь  ты ли это ты ли это ты ли это ты ли этоты ли это"}
+                      buttonNameForSolid={"See more"}
+                      buttonNameForOutlined={"Save"}
+                /> <Card src={beach}
+                         alt="Beach"
+                         title={"Пингвины Мадагаскар Мадагаскар Мадагаскар Мадагаскар"}
+                         description={"Ковальсикй ты ли это, Рико иди принеси стерлядь"}
+                         buttonNameForSolid={"See more"}
+                         buttonNameForOutlined={"Save"}
+            />
+
+                <Card src={beach}
+                      alt="Beach"
+                      title={"Пингвины Мадагаскар"}
+                      description={"Ковальсикй ты ли это, Рико иди принеси стерлядь  ты ли это ты ли это ты ли это ты ли этоты ли это"}
+                      buttonNameForSolid={"See more"}
+                      buttonNameForOutlined={"Save"}
+                /> <Card src={beach}
+                         alt="Beach"
+                         title={"Пингвины Мадагаскар Мадагаскар Мадагаскар Мадагаскар"}
+                         description={"Ковальсикй ты ли это, Рико иди принеси стерлядь"}
+                         buttonNameForSolid={"See more"}
+                         buttonNameForOutlined={"Save"}
+            />
+
+                <Card src={beach}
+                      alt="Beach"
+                      title={"Пингвины Мадагаскар"}
+                      description={"Ковальсикй ты ли это, Рико иди принеси стерлядь  ты ли это ты ли это ты ли это ты ли этоты ли это"}
+                      buttonNameForSolid={"See more"}
+                      buttonNameForOutlined={"Save"}
+                /> <Card src={beach}
+                         alt="Beach"
+                         title={"Пингвины Мадагаскар Мадагаскар Мадагаскар Мадагаскар"}
+                         description={"Ковальсикй ты ли это, Рико иди принеси стерлядь"}
+                         buttonNameForSolid={"See more"}
+                         buttonNameForOutlined={"Save"}
+            />
+
+                <Card src={beach}
+                      alt="Beach"
+                      title={"Пингвины Мадагаскар"}
+                      description={"Ковальсикй ты ли это, Рико иди принеси стерлядь  ты ли это ты ли это ты ли это ты ли этоты ли это"}
+                      buttonNameForSolid={"See more"}
+                      buttonNameForOutlined={"Save"}
+                /> <Card src={beach}
+                         alt="Beach"
+                         title={"Пингвины Мадагаскар Мадагаскар Мадагаскар Мадагаскар"}
+                         description={"Ковальсикй ты ли это, Рико иди принеси стерлядь"}
+                         buttonNameForSolid={"See more"}
+                         buttonNameForOutlined={"Save"}
+            />
+
+                <Card src={beach}
+                      alt="Beach"
+                      title={"Пингвины Мадагаскар"}
+                      description={"Ковальсикй ты ли это, Рико иди принеси стерлядь  ты ли это ты ли это ты ли это ты ли этоты ли это"}
+                      buttonNameForSolid={"See more"}
+                      buttonNameForOutlined={"Save"}
+                /> <Card src={beach}
+                         alt="Beach"
+                         title={"Пингвины Мадагаскар Мадагаскар Мадагаскар Мадагаскар"}
+                         description={"Ковальсикй ты ли это, Рико иди принеси стерлядь"}
+                         buttonNameForSolid={"See more"}
+                         buttonNameForOutlined={"Save"}
+            />
+
+                <Card src={beach}
+                      alt="Beach"
+                      title={"Пингвины Мадагаскар"}
+                      description={"Ковальсикй ты ли это, Рико иди принеси стерлядь  ты ли это ты ли это ты ли это ты ли этоты ли это"}
+                      buttonNameForSolid={"See more"}
+                      buttonNameForOutlined={"Save"}
+                />
+            </Wrapper>
     );
 }
 
+const Wrapper = styled.section`
+    min-height: 100vh;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    padding: 20px;
+`
+
 export default App;
 
-const Title = styled.h1`
-    font-size: 1.5em;
-    text-align: center;
-    margin-bottom: 32px;
-    span {
-        color: #e91e63;
-    }
-`;
 
-const Form = styled.form`
-  width: 100%;
-  max-width: 500px;
-`;
-
-const Field = styled.input`
-  padding: 5px 15px;
-  margin: 10px 0;
-  width: 100%;
-  font-size: 1rem;
-`;
