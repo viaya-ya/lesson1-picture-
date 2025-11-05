@@ -10,14 +10,13 @@ export function Picture({ src, alt }: Props) {
 }
 
 const CardStyle = styled.img`
-    width: 280px;
-    height: 170px;
-    
+    width: 100%;
     max-width: 280px;
-    min-width: 280px;
     
+    height: auto;
     max-height: 170px;
-    min-height: 170px;
-
+   
     border-radius: 10px;
+    object-fit: cover;
 `;
+
